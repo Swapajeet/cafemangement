@@ -1,0 +1,169 @@
+Build a full-stack, production-ready, TWO-IN-ONE cafe website for
+“Brune Cafe – Coffee, Calm & Conversations”.
+
+TECH STACK:
+Frontend: React + Tailwind CSS + Framer Motion (for animations)
+Backend: Node.js + Express
+Database: MongoDB (Mongoose)
+Auth: JWT based authentication
+Maps: Google Maps API (or Mapbox)
+Email: Nodemailer (Gmail SMTP)
+Deployment-ready architecture
+
+--------------------------------------------------
+WEBSITE STRUCTURE (TWO ROLES)
+--------------------------------------------------
+
+1) USER SIDE (Customer Website)
+2) OWNER SIDE (Cafe Admin Dashboard)
+
+--------------------------------------------------
+1) USER SIDE REQUIREMENTS
+--------------------------------------------------
+
+• Attractive, animated landing page (modern cafe theme)
+• Smooth scroll animations
+• Coffee beans, cups, food cards with hover + entrance animations
+• Cafe intro section with slogan:
+  "Brune Cafe – Coffee, Calm & Conversations"
+
+• Show FULL MENU with animated cards and price tags:
+
+Pizza Gallery:
+- Cheese & Charm (Margherita) – ₹195
+- Veggie Supreme – ₹215
+- Paneer Fusion – ₹245
+- Fungi Feast (Mushroom) – ₹265
+
+Bites:
+- Cheese Garlic Bread – ₹125
+- Falafel Bite – ₹155
+- Chilli Cheese Melt Bite – ₹155
+- Crispy Melt Nachos – ₹145
+- Salted French Fries – ₹105
+- Peri Peri Fries – ₹115
+- Cheese Drizzle Fries – ₹145
+
+Warm Sip:
+- Belgian Hot Cocoa – ₹125
+- Signature Bournvita – ₹95
+- Artisan Masala Chai – ₹55
+- Elite House Black Tea – ₹45
+- Majestic Lemon Mint Tea – ₹65
+- Crystal Leaf Green Tea – ₹65
+
+Gourmet Sandwich House:
+- Signature Veg Grill – ₹115
+- Classic Bombay Masala Delight – ₹125
+- Paneer Buzz – ₹155
+- Loaded Corn Cheese – ₹135
+
+Brew Collection:
+- Espresso Noir – ₹95
+- Velvet Cappuccino – ₹115
+- Caffe Latte – ₹135
+- Mocha Milano – ₹145
+- Americano – ₹95
+- Hazelnut Brew – ₹135
+
+Iced Artistry Bar:
+- Iced Americano Supreme – ₹115
+- Iced Cloud Latte – ₹125
+- Mocha Ice Drip – ₹145
+- Cold Brew Signature – ₹125
+- Oreo Luxe Shake – ₹125
+- KitKat Crush – ₹135
+- Hazelnut Cold Brew – ₹145
+
+--------------------------------------------------
+LIVE LOCATION + MAP
+--------------------------------------------------
+
+• User login required
+• Get user’s LIVE location (browser geolocation)
+• Show cafe location on map
+• Calculate and display real-time distance from user to cafe (KM)
+• Animated route / marker on map
+
+--------------------------------------------------
+TABLE BOOKING SYSTEM
+--------------------------------------------------
+
+• Online Table Booking Form:
+  - Name
+  - Email
+  - Phone
+  - Date
+  - Time
+  - Number of persons
+
+• On "Book Table" click:
+  - Save booking in MongoDB
+  - Status = "Pending"
+
+• Booking confirmation UI animation
+
+--------------------------------------------------
+EMAIL + NOTIFICATIONS
+--------------------------------------------------
+
+• When user books a table:
+  - Send EMAIL to cafe owner:
+    "New table booking received"
+
+• OWNER can:
+  - ACCEPT booking → user gets confirmation email
+  - REJECT booking → user gets rejection email with message
+
+--------------------------------------------------
+CAFE OPEN / CLOSED STATUS
+--------------------------------------------------
+
+• Owner can toggle cafe status:
+  - OPEN / CLOSED
+• User homepage should clearly show:
+  “Cafe is Open” or “Cafe is Closed” (with animation)
+
+--------------------------------------------------
+2) OWNER DASHBOARD (ADMIN PANEL)
+--------------------------------------------------
+
+• Secure owner login
+• Dashboard features:
+  - View all bookings
+  - Accept / Reject bookings
+  - Real-time booking notifications
+  - Toggle cafe open/close status
+  - View total bookings count
+  - View today’s bookings
+
+--------------------------------------------------
+DATABASE SCHEMAS (MongoDB)
+--------------------------------------------------
+
+User Schema
+Booking Schema
+Admin Schema
+CafeStatus Schema
+
+--------------------------------------------------
+EXTRA REQUIREMENTS
+--------------------------------------------------
+
+• Clean folder structure
+• Responsive (mobile + desktop)
+• Smooth animations everywhere
+• Error handling
+• Loading states
+• Use modern UI design
+• Ready for future payment integration
+
+--------------------------------------------------
+OUTPUT EXPECTATION
+--------------------------------------------------
+
+• Generate frontend + backend code
+• Explain setup steps
+• Provide .env configuration
+• MongoDB connection code
+• Deployment-ready solution   ya madhe admin password ha change karat aala pahije ani admine cha  email pan  
